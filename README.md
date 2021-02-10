@@ -8,7 +8,9 @@
 2. list
 * list
 * list
+
 (https://www.google.com "Google")
+
 Prvy stlpec | Druhy stlpec
 ------------ | -------------
 prvy riadok prvy stlpec | prvy riadok druhy stlpec
