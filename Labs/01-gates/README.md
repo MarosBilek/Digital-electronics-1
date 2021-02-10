@@ -17,13 +17,13 @@ prvy riadok prvy stlpec | prvy riadok druhy stlpec
 druhy riadok prvy stlpec | druhy riadok druhy stlpec
 
 
-##DeMorgan prva funkcia
+## DeMorgan prva funkcia
 ```vhdl
 begin
     f_o  <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
     
 end architecture dataflow;
 ```
-![Simulacia DeMorgan prvej funkcie](/images/simFDmor.png)
+![Simulacia DeMorgan prvej funkcie](D:\malygit\Digital-electronics-1\Labs\01-gates\images\simFDmor)
 
 [EDA Playground link](https://www.edaplayground.com/x/8LrZ)
