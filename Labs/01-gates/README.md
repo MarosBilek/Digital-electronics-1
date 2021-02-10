@@ -24,6 +24,6 @@ begin
     
 end architecture dataflow;
 ```
-![Simulacia DeMorgan prvej funkcie](D:\malygit\Digital-electronics-1\Labs\01-gates\images\simFDmor.png)
+![Simulacia DeMorgan prvej funkcie](images/simFDmor.png)
 
 [EDA Playground link](https://www.edaplayground.com/x/8LrZ)
