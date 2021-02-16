@@ -35,7 +35,7 @@ end architecture dataflow;
 
 ![Simulacia DeMorgan NAND](images/simFDmorNAND.png)
 
-| **c** | **b** |**a** | **f(c,b,a)** |
+| **c** | **b** |**a** | **f(c,b,a) NAND** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |
 | 0 | 0 | 1 | 1 |
@@ -58,7 +58,7 @@ end architecture dataflow;
 
 ![Simulacia DeMorgan NOR](images/simFDmorNOR.png)
 
-| **c** | **b** |**a** | **f(c,b,a)** |
+| **c** | **b** |**a** | **f(c,b,a) NOR** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |
 | 0 | 0 | 1 | 1 |
