@@ -36,7 +36,7 @@ end architecture dataflow;
 ![Simulacia DeMorgan NAND](images/simFDmorNAND.png)
 
 <br />
-
+<br />
 
 | **c** | **b** |**a** | **f(c,b,a) NAND** |
 | :-: | :-: | :-: | :-: |
