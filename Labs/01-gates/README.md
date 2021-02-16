@@ -35,6 +35,9 @@ end architecture dataflow;
 
 ![Simulacia DeMorgan NAND](images/simFDmorNAND.png)
 
+<br />
+
+
 | **c** | **b** |**a** | **f(c,b,a) NAND** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |
@@ -69,7 +72,6 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-<br />
 <br />
 
 ## Distribucne zakony
