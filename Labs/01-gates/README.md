@@ -69,6 +69,8 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
+
+
 ## Distribucne zakony
 
 [EDA Playground link Dist. zakony](https://www.edaplayground.com/x/8rQJ)
