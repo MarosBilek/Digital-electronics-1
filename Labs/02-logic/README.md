@@ -32,7 +32,7 @@ less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	   
 
 ## 4-bit comparator
 [EDA Playground link for 4-bit comparator](https://www.edaplayground.com/x/m8kn) </br>
-![Output console error](images/output_console_error.jpg) </br>
+![Karnaugh map for 2-bit](images/kmap.jpg) </br>
 ![Simulation with 11 examples](images/sim_10_examples_4bit.jpg) </br>
 
 ```vhdl
