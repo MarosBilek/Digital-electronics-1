@@ -90,7 +90,7 @@ p_stimulus : process
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-``` </br>
+```
 
 ```vhdl
 architecture Behavioral of comparator_2bit is
