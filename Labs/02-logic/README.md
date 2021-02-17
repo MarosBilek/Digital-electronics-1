@@ -32,7 +32,7 @@ less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	   
 ## Output console assert error
 ![Output console assert error](images/output_console_error.png)
 </br>
-##Simulation for 10 random combinations w/o error
+## Simulation for 10 random combinations w/o error
 ![Simulation for 10 random combinations w/o error](images/sim_10_examples.png)
 
 	   
