@@ -24,12 +24,12 @@ equals_SoP = m0 + m5 + m10 + m15 = (!b1.!b0.!a1.!a0) + (!b1.b0.!a1.a0) + (b1.!b0
 
 less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	     M12 .	     M13 . 	       M14 . 		M15 = </br>
 	 = (b1+b0+a1+a0).(b1+!b0+a1+a0).(b1+!b0+a1+!a0).(!b1+b0+a1+a0).(!b1+b0+a1+!a0).(!b1+b0+!a1+a0).(!b1+!b0+a1+a0).(!b1+!b0+a1+!a0).(!b1+!b0+!a1+a0).(!b1+!b0+!a1+!a0)
-
+ </br>
 ## Karnaugh maps for 2-bit
 ![Karnaugh map for 2-bit](images/kmap.jpg)
 ![Karnaugh map for 2-bit](images/kmap_02.png)
  </br>
-
+ </br>
 ## 4-bit comparator
 [EDA Playground link for 4-bit comparator](https://www.edaplayground.com/x/m8kn) </br>
 ![Karnaugh map for 2-bit](images/output_console_error.png) </br>
