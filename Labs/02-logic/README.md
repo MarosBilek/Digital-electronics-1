@@ -1,6 +1,6 @@
 
 ## 02 - Logic
-[EDA Playground link for 2-bit comparator] (https://www.edaplayground.com/x/ghNq)
+[EDA Playground link for 2-bit comparator](https://www.edaplayground.com/x/ghNq)
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 0 | 0 0 | 0 | 1 | 0 |
