@@ -28,16 +28,16 @@ less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	   
 ## Karnaugh maps for 2-bit
 ![Karnaugh map for 2-bit](images/kmap.jpg)
 ![Karnaugh map for 2-bit](images/kmap_02.png)
-</br>
+ </br>
 
 ## 4-bit comparator
-</br>
+ </br>
 [EDA Playground link for 4-bit comparator](https://www.edaplayground.com/x/m8kn)
-</br>
+ </br>
 ![Output console error](images/output_console_error.jpg)
-</br>
+ </br>
 ![Simulation with 11 examples](images/sim_10_examples_4bit.jpg)
-</br>
+ </br>
 ```vhdl
 p_stimulus : process
     begin
@@ -93,7 +93,7 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
-</br>
+ </br>
 ```vhdl
 architecture Behavioral of comparator_2bit is
 begin
