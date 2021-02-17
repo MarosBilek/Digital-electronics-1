@@ -31,13 +31,9 @@ less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	   
  </br>
 
 ## 4-bit comparator
- </br>
-[EDA Playground link for 4-bit comparator](https://www.edaplayground.com/x/m8kn)
- </br>
-![Output console error](images/output_console_error.jpg)
- </br>
-![Simulation with 11 examples](images/sim_10_examples_4bit.jpg)
- </br>
+[EDA Playground link for 4-bit comparator](https://www.edaplayground.com/x/m8kn)</br>
+![Output console error](images/output_console_error.jpg)</br>
+![Simulation with 11 examples](images/sim_10_examples_4bit.jpg)</br>
 ```vhdl
 p_stimulus : process
     begin
@@ -92,8 +88,7 @@ p_stimulus : process
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-```
- </br>
+```</br>
 ```vhdl
 architecture Behavioral of comparator_2bit is
 begin
