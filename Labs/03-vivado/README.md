@@ -76,10 +76,14 @@ end testbench;
 ![Screenshot with simulated time waveforms](images/13.png) </br>
 ![Screenshot with simulated time waveforms](images/05.png) </br>
 ![Screenshot with simulated time waveforms](images/06.png) </br>
+#### After sucessful creation of your project you will get into this window
 ![Screenshot with simulated time waveforms](images/07.png) </br>
+#### Now you must add/create testbench and design to your project, also constraints if needed
+#### Steps for creating them are all similar
 ![Screenshot with simulated time waveforms](images/08.png) </br>
 ![Screenshot with simulated time waveforms](images/09.png) </br>
-![Screenshot with simulated time waveforms](images/10.png) </br>
 ![Screenshot with simulated time waveforms](images/11.png) </br>
+![Screenshot with simulated time waveforms](images/10.png) </br>
+#### After clicking `Run Behavioral Simulation`, program will start to process simulation (may take a moment), then new window with simulated waveforms, inputs and outputs will appear
 ![Screenshot with simulated time waveforms](images/12.png) </br>
 
