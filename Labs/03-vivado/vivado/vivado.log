@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar  2 18:03:52 2021
+# Process ID: 15020
+# Current directory: D:/malygit/Digital-electronics-1/Labs/03-vivado/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17060 D:\malygit\Digital-electronics-1\Labs\03-vivado\vivado\vivado.xpr
+# Log file: D:/malygit/Digital-electronics-1/Labs/03-vivado/vivado/vivado.log
+# Journal file: D:/malygit/Digital-electronics-1/Labs/03-vivado/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/malygit/Digital-electronics-1/Labs/03-vivado/vivado/vivado.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/malygit/Digital-electronics-1/Labs/03-vivado/vivado/vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vvivado/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  2 18:10:27 2021...
