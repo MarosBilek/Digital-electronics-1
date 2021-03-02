@@ -79,7 +79,7 @@ end testbench;
 #### After sucessful creation of your project you will get into this window
 ![Screenshot with simulated time waveforms](images/07.png) </br>
 #### Now you must add/create testbench and design to your project, also constraints if needed
-#### Steps for creating them are all similar
+#### Steps for creating any of them are similar
 ![Screenshot with simulated time waveforms](images/08.png) </br>
 ![Screenshot with simulated time waveforms](images/09.png) </br>
 ![Screenshot with simulated time waveforms](images/11.png) </br>
