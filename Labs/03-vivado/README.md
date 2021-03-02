@@ -84,6 +84,7 @@ end testbench;
 ![Screenshot with simulated time waveforms](images/09.png) </br>
 ![Screenshot with simulated time waveforms](images/11.png) </br>
 ![Screenshot with simulated time waveforms](images/10.png) </br>
+## How to run simulation
 #### After clicking `Run Behavioral Simulation`, program will start to process simulation (may take a moment), then new window with simulated waveforms, inputs and outputs will appear
 ![Screenshot with simulated time waveforms](images/12.png) </br>
 
