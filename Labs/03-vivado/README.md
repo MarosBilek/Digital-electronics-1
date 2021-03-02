@@ -65,6 +65,9 @@ p_stimulus : process
 
 end testbench;
 ```
+
+### Screenshot with simulated time waveforms
+
 ![Screenshot with simulated time waveforms](images/graf.png) </br>
 
 ## A Vivado tutorial
