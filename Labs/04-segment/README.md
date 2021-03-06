@@ -1,6 +1,6 @@
 # Lab assigment 04 - Segment
 
-## Prep. task - 
+## Prep. task - Decoder truth table for common anode 7-segment display
 
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -20,6 +20,10 @@
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+## Prep. task - Schematic with connection of 7-segment displays on Nexys A7 board
+
+![Screenshot with simulated time waveforms](images/im3.png) </br>
 
 ## Listing of VHDL architecture from source file `hex_7seg.vhd` with syntax highlighting
 
