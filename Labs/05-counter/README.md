@@ -13,7 +13,7 @@
 
 ## Prep. task - Figure with connection of push buttons on Nexys A7 board
 
-![Nexys A7 board](images/buttons.jpg)
+![Nexys A7 board](images/buttons.png)
 
 
 ## Bidirectional counter
@@ -81,7 +81,7 @@ p_stimulus : process
 
 ### Screenshot with simulated time waveforms
 
-![Graf](images/graf.jpg)
+![Graf](images/graf.png)
 
 ## Top level
 
