@@ -1,6 +1,6 @@
 # Lab assigment 06 - Display driver
 
-## Prep. task -  
+## Prep. task -  Timing diagram figure for displaying value `3.142`
 
 ![Graf](images/drom.png)
 
