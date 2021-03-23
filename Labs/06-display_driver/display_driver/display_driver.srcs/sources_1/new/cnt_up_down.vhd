@@ -45,11 +45,11 @@ begin
 
                 -- TEST COUNTER DIRECTION HERE
 
-            --if(cnt_up_i = '1') then
+            if(cnt_up_i = '1') then
                 s_cnt_local <= s_cnt_local + 1;
-            --else
-               -- s_cnt_local <= s_cnt_local -1;
-            --end if;
+            else
+                s_cnt_local <= s_cnt_local -1;
+            end if;
 
             end if;
         end if;
