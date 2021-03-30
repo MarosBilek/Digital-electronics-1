@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_d_ff_arst.vhd,1617107386,vhdl,,,,tb_d_ff_arst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_d_ff_rst.vhd,1617108211,vhdl,,,,tb_d_ff_rst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_d_latch.vhd,1617105457,vhdl,,,,tb_d_latch,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_jk_ff_rst.vhd,1617112285,vhdl,,,,tb_jk_ff_rst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_t_ff_rst.vhd,1617113671,vhdl,,,,tb_t_ff_rst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sources_1/new/d_ff_arst.vhd,1617105896,vhdl,D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_d_ff_arst.vhd,,,d_ff_arst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sources_1/new/d_ff_rst.vhd,1617107847,vhdl,D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_d_ff_rst.vhd,,,d_ff_rst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sources_1/new/d_latch.vhd,1616578277,vhdl,D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_d_latch.vhd,,,d_latch,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sources_1/new/jk_ff_rst.vhd,1617109411,vhdl,D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_jk_ff_rst.vhd,,,jk_ff_rst,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sources_1/new/t_ff_rst.vhd,1617112531,vhdl,D:/malygit/Digital-electronics-1/Labs/07-ffs/ffs/ffs.srcs/sim_1/new/tb_t_ff_rst.vhd,,,t_ff_rst,,,,,,,,
