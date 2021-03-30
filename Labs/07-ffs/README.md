@@ -142,7 +142,7 @@ p_d_latch : process (en, d, arst)
      wait;
 ```
 
-### Screenshot with simulated time waveforms
+### Screenshot with simulated time waveforms - for D latch
 
 ![Graf](images/graf1.png)
 
@@ -199,7 +199,7 @@ p_d_ff_arst :process
     end process p_d_ff_arst;
 ```
 
-#### Screenshot with simulated time waveforms
+#### Screenshot with simulated time waveforms - for D flip-flop (async reset)
 
 ![Graf](images/graf2.png)
 
@@ -263,7 +263,7 @@ p_d_ff_rst : process(clk)
     end process p_d_ff_rst;
 ```
 
-#### Screenshot with simulated time waveforms
+#### Screenshot with simulated time waveforms - for D flip-flop (sync reset)
 
 ![Graf](images/graf3.png)
 
@@ -351,6 +351,8 @@ p_jk_ff_rst :process
     end process p_jk_ff_rst; 
 ```
 
+#### Screenshot with simulated time waveforms - for JK flip-flop (sync reset)
+
 ![Graf](images/graf4.png)
 
 
@@ -423,6 +425,8 @@ p_t_ff_arst : process
     
     end process p_t_ff_arst;
 ```
+
+#### Screenshot with simulated time waveforms - for T flip-flop (sync reset)
 
 ![Graf](images/graf5.png)
 
