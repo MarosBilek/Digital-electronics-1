@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr  6 16:52:53 2021
+# Process ID: 18328
+# Current directory: D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2600 D:\malygit\Digital-electronics-1\Labs\08-traffic_lights\traffic_lights\traffic_lights.xpr
+# Log file: D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/vivado.log
+# Journal file: D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/traffic_lights.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_tlc.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_tlc/uut_tlc/s_state}} 
+relaunch_sim
+save_wave_config {D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/tb_tlc_behav.wcfg}
+close_sim

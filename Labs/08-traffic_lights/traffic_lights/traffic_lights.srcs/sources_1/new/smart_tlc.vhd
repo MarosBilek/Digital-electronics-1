@@ -24,7 +24,7 @@ use ieee.numeric_std.all;
 ------------------------------------------------------------------------
 -- Entity declaration for traffic light controller
 ------------------------------------------------------------------------
-entity tlc is
+entity smart_tlc is
     port(
         clk     : in  std_logic;
         reset   : in  std_logic;
@@ -35,12 +35,12 @@ entity tlc is
         south_o : out std_logic_vector(3 - 1 downto 0);
         west_o  : out std_logic_vector(3 - 1 downto 0)
     );
-end entity tlc;
+end entity smart_tlc;
 
 ------------------------------------------------------------------------
 -- Architecture declaration for traffic light controller
 ------------------------------------------------------------------------
-architecture Behavioral of tlc is
+architecture Behavioral of smart_tlc is
 
     -- Define the states
     type t_state is (STOP1,

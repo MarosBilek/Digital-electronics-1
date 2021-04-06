@@ -156,6 +156,12 @@ p_output_fsm : process(s_state)
 
 ![Graf](images/graf1.png)
 
+&nbsp;
+
+&nbsp;
+
+![Graf](images/graf2.png)
+
 ## Smart controller
 
 ### State table
