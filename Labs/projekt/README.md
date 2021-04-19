@@ -34,14 +34,14 @@
 | Pin 8  | B18 | J18 | V14 | D2 |
 | Pin 9  | A18 | K15 | T13 | H2 |
 | Pin 10 | K16 | J15 | U13 | G2 |
-
+#### Sensor HC-SR04 connection table
 | **Sensor HC - SR04** | **Board - JA_pmod** |
 | :-: | :-: | 
 | Trig | PIN1 - G13 |
 | Echo | PIN7 - D13 |
 | VCC | PIN6 -  VCC |
 | GND | PIN5 - GND |
-
+#### Buzzer connection table
 | **Buzzer** | **Board - JA_pmod** |
 | :-: | :-: | 
 | VCC | PIN12 - VCC |
