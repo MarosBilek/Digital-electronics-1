@@ -34,7 +34,7 @@
 
 || Pmod JA | Pmod JB | Pmod JC | Pmod JD |
 | :-: | :-: | :-: | :-: | :-:|
-| Pmod Type | Standart | Hight-Speed | Hight-Speed | Standart | 
+| **Pmod Type** | **Standart** | **Hight-Speed** | **Hight-Speed** | **Standart** | 
 | Pin 1  | G13 | E15 | U12 | D4 |
 | Pin 2  | B11 | E16 | V12 | D3 |
 | Pin 3  | A11 | D15 | V10 | F4 |
