@@ -18,19 +18,10 @@
 
 ### Chosen board **Arty A7-35T**
 
-| **Sensor HC - SRO04** | **Board - JA_pmod** |
-| :-: | :-: | 
-| Trig | PIN1 - G13 |
-| Echo | PIN7 - D13 |
-| VCC | VCC |
-| GND | GND |
 
+![Board](images/board.png)
 
-| **Buzzer** | **Board - JA_pmod** |
-| :-: | :-: | 
-| VCC | VCC |
-| GND | GND |
-
+![Pins](images/piny.png)
 
 || Pmod JA | Pmod JB | Pmod JC | Pmod JD |
 | :-: | :-: | :-: | :-: | :-:|
@@ -43,6 +34,21 @@
 | Pin 8  | B18 | J18 | V14 | D2 |
 | Pin 9  | A18 | K15 | T13 | H2 |
 | Pin 10 | K16 | J15 | U13 | G2 |
+
+| **Sensor HC - SRO04** | **Board - JA_pmod** |
+| :-: | :-: | 
+| Trig | PIN1 - G13 |
+| Echo | PIN7 - D13 |
+| VCC | VCC |
+| GND | GND |
+
+| **Buzzer** | **Board - JA_pmod** |
+| :-: | :-: | 
+| VCC | VCC |
+| GND | GND |
+
+
+
 
 
 
