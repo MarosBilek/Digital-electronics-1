@@ -18,18 +18,18 @@
 
 ### Chosen board **Arty A7-35T**
 
-| **Senzor HC - SRO04** | **Deska - JA_pmod** |
+| **Sensor HC - SRO04** | **Board - JA_pmod** |
 | :-: | :-: | 
 | Trig | PIN1 - G13 |
 | Echo | PIN7 - D13 |
-| VCC | GND |
-| VCC | GND |
+| VCC | VCC |
+| GND | GND |
 
 
-| **buzzer** | **Deska - JA_pmod** |
+| **Buzzer** | **Board - JA_pmod** |
 | :-: | :-: | 
-| VCC | GND |
-| VCC | GND |
+| VCC | VCC |
+| GND | GND |
 
 
 
