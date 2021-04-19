@@ -32,7 +32,7 @@
 | GND | GND |
 
 
-|:-:| Pmod JA | Pmod JB | Pmod JC | Pmod JD |
+| Pmod JA | Pmod JB | Pmod JC | Pmod JD |
 | Pmod Type | Standart | Hight-Speed | Hight-Speed | Standart | 
 |  :-:   | :-: | :-: | :-: | :-:|
 | Pin 1  | G13 | E15 | U12 | D4 |
