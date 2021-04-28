@@ -39,7 +39,6 @@
 | :-: | :-: | 
 | Trig | PIN1 - G13 |
 | Echo | PIN7 - D13 |
-| VCC | PIN6 -  VCC |
 | GND | PIN5 - GND |
 #### Buzzer connection table
 | **Buzzer** | **Board - JA_pmod** |
@@ -47,8 +46,8 @@
 | VCC | PIN12 - VCC |
 | GND | PIN11 - GND |
 
-
-
+![Board](images/FSM.png)
+![Board](images/schema.png)
 
 
 

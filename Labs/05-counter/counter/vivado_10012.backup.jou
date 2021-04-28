@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 22 17:42:40 2021
+# Process ID: 10012
+# Current directory: D:/malygit/Digital-electronics-1/Labs/05-counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1792 D:\malygit\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Log file: D:/malygit/Digital-electronics-1/Labs/05-counter/counter/vivado.log
+# Journal file: D:/malygit/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_cnt_up_down.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_clock_enable [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_clock_enable.tcl
+close_sim

@@ -2,13 +2,16 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Mar 17 11:55:40 2021
-# Process ID: 15096
+# Start of session at: Thu Apr 22 20:59:21 2021
+# Process ID: 2240
 # Current directory: D:/malygit/Digital-electronics-1/Labs/05-counter/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1688 D:\malygit\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7552 D:\malygit\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
 # Log file: D:/malygit/Digital-electronics-1/Labs/05-counter/counter/vivado.log
 # Journal file: D:/malygit/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source tb_clock_enable.tcl
+close_sim

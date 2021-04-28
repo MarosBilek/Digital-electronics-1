@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Mar 23 16:12:50 2021
-# Process ID: 13948
+# Start of session at: Thu Apr 22 17:30:28 2021
+# Process ID: 7736
 # Current directory: D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11016 D:\malygit\Digital-electronics-1\Labs\06-display_driver\display_driver\display_driver.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18880 D:\malygit\Digital-electronics-1\Labs\06-display_driver\display_driver\display_driver.xpr
 # Log file: D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/vivado.log
 # Journal file: D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver\vivado.jou
 #-----------------------------------------------------------
@@ -17,105 +17,51 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vvivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1002.285 ; gain = 0.000
 update_compile_order -fileset sources_1
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
-Starting synth_design
-Using part: xc7a50ticsg324-1L
-Top: driver_7seg_4digits
-INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1257.160 ; gain = 65.418
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'driver_7seg_4digits' [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:42]
-INFO: [Synth 8-638] synthesizing module 'clock_enable' [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd:24]
-	Parameter g_MAX bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'clock_enable' (1#1) [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd:24]
-INFO: [Synth 8-638] synthesizing module 'cnt_up_down' [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd:25]
-	Parameter g_CNT_WIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'cnt_up_down' (2#1) [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd:25]
-INFO: [Synth 8-638] synthesizing module 'hex_7seg' [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'hex_7seg' (3#1) [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'driver_7seg_4digits' (4#1) [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:42]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1358.633 ; gain = 166.891
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1367.684 ; gain = 175.941
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1367.684 ; gain = 175.941
----------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1367.684 ; gain = 0.000
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Completed Processing XDC Constraints
-
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1456.383 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1508.121 ; gain = 316.379
-11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1508.121 ; gain = 316.379
-close_design
-set_property top top [current_fileset]
-update_compile_order -fileset sources_1
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
-Starting synth_design
-Using part: xc7a50ticsg324-1L
-Top: top
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1542.668 ; gain = 0.000
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top' [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:26]
-INFO: [Synth 8-638] synthesizing module 'driver_7seg_4digits' [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:33]
-INFO: [Synth 8-638] synthesizing module 'clock_enable' [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd:24]
-	Parameter g_MAX bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'clock_enable' (1#1) [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd:24]
-INFO: [Synth 8-638] synthesizing module 'cnt_up_down' [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd:25]
-	Parameter g_CNT_WIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'cnt_up_down' (2#1) [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd:25]
-INFO: [Synth 8-638] synthesizing module 'hex_7seg' [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'hex_7seg' (3#1) [D:/malygit/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'driver_7seg_4digits' (4#1) [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:33]
-INFO: [Synth 8-256] done synthesizing module 'top' (5#1) [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:26]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1542.668 ; gain = 0.000
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1542.668 ; gain = 0.000
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1542.668 ; gain = 0.000
----------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1542.668 ; gain = 0.000
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Completed Processing XDC Constraints
-
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1542.668 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-RTL Elaboration Complete:  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1542.668 ; gain = 0.000
-12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1542.668 ; gain = 0.000
-close_design
-set_property top driver_7seg_4digits [current_fileset]
-update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+ERROR: [VRFC 10-2989] 's_dp' is not declared [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:105]
+ERROR: [VRFC 10-3782] unit 'testbench' ignored due to previous errors [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:11]
+INFO: [VRFC 10-3070] VHDL file 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+ERROR: [VRFC 10-2989] 's_dp' is not declared [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:105]
+ERROR: [VRFC 10-3782] unit 'testbench' ignored due to previous errors [D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:11]
+INFO: [VRFC 10-3070] VHDL file 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/malygit/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 16:34:03 2021...
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 22 17:42:01 2021...
