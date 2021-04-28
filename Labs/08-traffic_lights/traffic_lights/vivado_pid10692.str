@@ -1,0 +1,120 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 10692
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Apr 28 21:38:35 CEST 2021
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/vvivado/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/vvivado/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	newbi
+User home directory: C:/Users/newbi
+User working directory: D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights
+User country: 	SK
+User language: 	sk
+User locale: 	sk_SK
+
+RDI_BASEROOT: D:/vvivado/Vivado
+HDI_APPROOT: D:/vvivado/Vivado/2020.2
+RDI_DATADIR: D:/vvivado/Vivado/2020.2/data
+RDI_BINDIR: D:/vvivado/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/newbi/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/newbi/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/newbi/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/vvivado/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/vivado.log
+Vivado journal file location: 	D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/vivado.jou
+Engine tmp dir: 	D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/.Xil/Vivado-10692-DESKTOP-5UCDFV7
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vvivado/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/vvivado/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/vvivado/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/vvivado/Vivado/2020.2
+XILINX_VIVADO: D:/vvivado/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/vvivado/Vivado/2020.2
+
+
+GUI allocated memory:	156 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,051 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\malygit\Digital-electronics-1\Labs\08-traffic_lights\traffic_lights\traffic_lights.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/traffic_lights.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights/traffic_lights.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 68 MB (+68764kb) [00:00:10]
+// [Engine Memory]: 1,051 MB (+950454kb) [00:00:10]
+// [GUI Memory]: 90 MB (+19971kb) [00:00:11]
+// [GUI Memory]: 112 MB (+17780kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  2864 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vvivado/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,051 MB. GUI used memory: 70 MB. Current time: 4/28/21, 9:38:36 PM CEST
+// Project name: traffic_lights; location: D:/malygit/Digital-electronics-1/Labs/08-traffic_lights/traffic_lights; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 135 MB (+17815kb) [00:00:16]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tlc(Behavioral) (tlc.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tlc(Behavioral) (tlc.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("tlc.vhd", 27, 179); // bP
+selectCodeEditor("tlc.vhd", 339, 264); // bP
+selectCodeEditor("tlc.vhd", 339, 174); // bP
+// Elapsed time: 48 seconds
+selectCodeEditor("tlc.vhd", 267, 249); // bP
