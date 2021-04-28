@@ -47,7 +47,7 @@
 | GND | PIN11 - GND |
 
 ![Board](images/FSM.png)
-![Board](images/Schema.png)
+![Board](images/Vystrizek.png)
 
 
 
