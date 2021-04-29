@@ -40,10 +40,10 @@ end entity tlc;
 architecture Behavioral of tlc is
 
     -- Define the states
-    type t_state is (STOP1,
-                     WEST_GO,
-                     WEST_WAIT,
-                     STOP2,
+    type t_state is (STOP1,     --default
+                     WEST_GO,   -- trig_send
+                     WEST_WAIT, -- trigg_wait
+                     STOP2,     --echo_count
                      SOUTH_GO,
                      SOUTH_WAIT);
     -- Define the signal that uses different states

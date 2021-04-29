@@ -3,6 +3,8 @@
 Nov 18 2020
 09:47:47
 D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.sim/tb_clock_enable.vhd,1615903113,vhdl,,,,tb_clock_enable,,,,,,,,
-D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sim_1/new/tb_fsm.vhd,1619635486,vhdl,,,,tb_fsm,,,,,,,,
-D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/clock_enable.vhd,1615368121,vhdl,D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/fsm.vhd,,,clock_enable,,,,,,,,
-D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/fsm.vhd,1619635857,vhdl,D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sim_1/new/tb_fsm.vhd,,,fsm,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sim_1/new/tb_fsm.vhd,1619713290,vhdl,,,,tb_fsm,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sim_1/new/tb_state_machine.vhd,1619723365,vhdl,,,,tb_state_machine,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/clock_enable.vhd,1619724862,vhdl,D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/state_machine.vhd,,,clock_enable,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/fsm.vhd,1619713123,vhdl,D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sim_1/new/tb_fsm.vhd,,,fsm,,,,,,,,
+D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sources_1/new/state_machine.vhd,1619726291,vhdl,D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.srcs/sim_1/new/tb_state_machine.vhd,,,state_machine,,,,,,,,

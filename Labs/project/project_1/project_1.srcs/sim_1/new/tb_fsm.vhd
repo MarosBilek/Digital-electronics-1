@@ -39,7 +39,7 @@ end tb_fsm;
 
 architecture Behavioral of tb_fsm is
 
-    constant c_CLK_100MHZ_PERIOD : time := 10ns;
+    constant c_CLK_4kHZ_PERIOD : time := 250us;
 
     --signal s_en    : std_logic;
     signal s_sound : std_logic;
@@ -58,11 +58,11 @@ port map(
 );
 p_clk_gen : process
 begin
-    while now < 750ns loop
+    while now < 100000 us loop
         s_clock <= '0';
-        wait for c_CLK_100MHZ_PERIOD / 2;
+        wait for c_CLK_4kHZ_PERIOD / 2;
         s_clock <= '1';
-        wait for c_CLK_100MHZ_PERIOD / 2;
+        wait for c_CLK_4kHZ_PERIOD / 2;
     end loop;
     wait;
 end process p_clk_gen;    
@@ -70,7 +70,7 @@ end process p_clk_gen;
 p_stimulus : process
 begin
     s_reset <= '1';
-    wait for 20 ns;
+    wait for 300 us;
     
     s_reset<= '0';
     wait;
