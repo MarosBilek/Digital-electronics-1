@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Apr 29 20:59:17 2021
-# Process ID: 12204
+# Start of session at: Fri Apr 30 17:41:25 2021
+# Process ID: 3164
 # Current directory: D:/malygit/Digital-electronics-1/Labs/project/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11256 D:\malygit\Digital-electronics-1\Labs\project\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18444 D:\malygit\Digital-electronics-1\Labs\project\project_1\project_1.xpr
 # Log file: D:/malygit/Digital-electronics-1/Labs/project/project_1/vivado.log
 # Journal file: D:/malygit/Digital-electronics-1/Labs/project/project_1\vivado.jou
 #-----------------------------------------------------------
@@ -14,7 +14,30 @@ open_project D:/malygit/Digital-electronics-1/Labs/project/project_1/project_1.x
 update_compile_order -fileset sources_1
 launch_simulation
 source tb_state_machine.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt_echo}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut_hooola/echo_count_o}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut_hooola/s_trigg}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
 close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
 launch_simulation
 source tb_state_machine.tcl
 relaunch_sim
@@ -22,32 +45,94 @@ relaunch_sim
 relaunch_sim
 relaunch_sim
 relaunch_sim
-current_wave_config {Untitled 2}
-add_wave {{/tb_state_machine/uut_hooola/clk}} 
-current_wave_config {Untitled 2}
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_state_machine.tcl
+current_wave_config {Untitled 3}
+add_wave {{/tb_state_machine/uut_hooola/s_state}} 
+relaunch_sim
+close_sim
+set_property -name {xsim.simulate.runtime} -value {1000ms} -objects [get_filesets sim_1]
+launch_simulation
+source tb_state_machine.tcl
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 4}
 add_wave {{/tb_state_machine/uut_hooola/s_cnt}} 
-current_wave_config {Untitled 2}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/tb_state_machine/uut_hooola/s_state}} 
+close_sim
+set_property -name {xsim.simulate.runtime} -value {200ms} -objects [get_filesets sim_1]
+launch_simulation
+source tb_state_machine.tcl
+current_wave_config {Untitled 5}
 add_wave {{/tb_state_machine/uut_hooola/s_state}} 
 relaunch_sim
 relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt}} 
 relaunch_sim
 relaunch_sim
 relaunch_sim
 relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt_echo}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_state_machine/uut_hooola/echo_count_o}} 
 relaunch_sim
 relaunch_sim
 close_sim
-set_property -name {xsim.simulate.runtime} -value {100ms} -objects [get_filesets sim_1]
+launch_simulation
+source tb_state_machine.tcl
+close_sim
+launch_simulation
+source tb_state_machine.tcl
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 7}
+add_wave {{/tb_state_machine/uut_hooola/echo_count_o}} 
+relaunch_sim
+relaunch_sim
+close_sim
 launch_simulation
 source tb_state_machine.tcl
 relaunch_sim
 relaunch_sim
 relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/tb_state_machine/uut_hooola/echo_count_o}} 
+current_wave_config {Untitled 8}
+add_wave {{/tb_state_machine/uut_hooola/s_state}} 
+current_wave_config {Untitled 8}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt}} 
 relaunch_sim
+current_wave_config {Untitled 8}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt_echo}} 
 relaunch_sim
-relaunch_sim
-relaunch_sim
-relaunch_sim
+close_sim
+launch_simulation
+source tb_state_machine.tcl
+current_wave_config {Untitled 9}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt_echo}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_state_machine/uut_hooola/s_state}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_state_machine/uut_hooola/s_cnt}} 
 relaunch_sim
 relaunch_sim
 relaunch_sim

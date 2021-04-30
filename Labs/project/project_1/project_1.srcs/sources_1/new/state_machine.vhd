@@ -13,7 +13,7 @@ entity state_machine is
         echo_i    : in  std_logic;
         trigger_o : out std_logic;
         -- Traffic lights (RGB LEDs) for two directions
-        echo_count_o : out integer
+        echo_count_o : out unsigned(16 - 1 downto 0)
         
   );
 end state_machine;
@@ -31,16 +31,16 @@ architecture Behavioral of state_machine is
     -- Internal clock enable
     signal s_en     : std_logic;
     -- Local delay counter
-    signal   s_cnt  : real := 0.0;--unsigned(5 - 1 downto 0);
+    signal   s_cnt  : unsigned(18 - 1 downto 0);
     -- Local echo counter
-    signal   s_cnt_echo  : integer := 0;
+    signal   s_cnt_echo  : unsigned(16 - 1 downto 0)  := b"0000_0000_0000_0000";
     
     signal s_trigg : std_logic;
     signal s_reverse : std_logic := '1';
     -- Specific values for local counter
-    constant c_ZERO         :real  := 0.0;
-    constant c_DELAY_20uSEC :real  := 0.002;--    unsigned(21 - 1 downto 0)        b"0_00000000000000010101";--20us
-    constant c_DELAY_60mSEC :real  :=60.0 ;--    unsigned(21 - 1 downto 0)        b"0_00001111010111000011";--60ms
+    constant c_ZERO         :    unsigned(18 - 1 downto 0)  := b"00_0000_0000_0000_0000";
+    constant c_DELAY_20uSEC :    unsigned(18 - 1 downto 0)  := b"00_0000_0000_0001_0100";--20us  --real  := 0.002;
+    constant c_DELAY_60mSEC :    unsigned(18 - 1 downto 0)  := b"001_1101_0100_1100_000";--60ms  --real  :=100.0 ;
     
     
 begin
@@ -54,7 +54,7 @@ begin
     --s_en <= '1';
     clk_en0 : entity work.clock_enable
         generic map(
-            g_MAX =>  3      -- g_MAX = 250 ms / (1/100 MHz)
+            g_MAX =>  100      -- g_MAX = 250 ms / (1/100 MHz)
         )
         port map(
             clk   => clk,
@@ -69,13 +69,13 @@ begin
     --------------------------------------------------------------------
     p_traffic_fsm : process(clk)
     begin
-        if rising_edge(clk) then
+        if rising_edge(clk) then    -- 1 clk = 10 ns
             if (reset = '1') then       -- Synchronous reset
                 s_state <= DEF ;      -- Set initial state
                 s_cnt   <= c_ZERO;      -- Clear all bits
 
             elsif (s_en = '1') then
-                -- Every 125 us, CASE checks the value of the s_state 
+                -- Every 1 us, CASE checks the value of the s_state 
                 -- variable and changes to the next state according 
                 -- to the delay value.
                 case s_state is
@@ -84,6 +84,7 @@ begin
                     -- and move to the next SEND_TRIGG state.
                     when DEF =>
                         -- Count up to c_DELAY_20uSEC
+                        echo_count_o <=(others => '0');         ----POZOR ZMENA
                         if (s_reverse = '0' ) then
                             trigger_o <= '0';
                         else
@@ -91,13 +92,18 @@ begin
                             s_state <= TRIGG_SEND;
                             -- Reset local counter value
                             s_cnt   <= c_ZERO;
+                            
                         end if;
 
                     when TRIGG_SEND =>
                         -- WRITE YOUR CODE HERE
+                        ---------------------------------
+                        --------------------------------
                         if (s_cnt < c_DELAY_20uSEC) then
+                        ------------------------------------
+                        ------------------------------------
                             trigger_o <= '1';
-                            s_cnt <= s_cnt +2.0;
+                            s_cnt <= s_cnt + 1;
                         else
                             s_state <= TRIGG_WAIT;
                             s_cnt   <= c_ZERO;
@@ -109,11 +115,15 @@ begin
                                s_state <= DEF;
                                s_cnt   <= c_ZERO;
                         else       
+                        ------------------------------------
+                        ------------------------------------
                             if (s_cnt < c_DELAY_60mSEC) then
                                 trigger_o <= '0';
-                                s_cnt <= s_cnt + 1.0;
+                                s_cnt <= s_cnt + 1;
                                 if(echo_i = '1') then
+                                    s_cnt_echo <= (others => '0');
                                     s_state <= ECHO_COUNT;
+                                    
                                 end if;    
                             else
                                 s_state <= TRIGG_SEND;
@@ -121,21 +131,25 @@ begin
                             end if;
                         end if;
                     when ECHO_COUNT =>
+                    
                         -- WRITE YOUR CODE HERE                                
                         if(s_reverse = '0') then
                                s_state <= DEF;
                                s_cnt   <= c_ZERO;
                         else 
-                            while(echo_i = '1') loop
-                                if rising_edge (clk) then                    
-                                    s_cnt_echo <= s_cnt_echo + 1;  -- 1 count = 125 us
-                                end if;   
-                            end loop;                
+                            --while(echo_i = '1') loop
+                            if(echo_i = '1') then                                                
+                                s_cnt_echo <= s_cnt_echo + 1;  -- 1 count = 1 us                                                          
+                            else
+                            --end loop;
+                            echo_count_o <= s_cnt_echo;                 
                             s_state <= TRIGG_SEND;
-                            s_cnt   <= c_ZERO;                             
+                            s_cnt   <= c_ZERO; 
+                            end if;                            
                         end if;   
                     when others =>
                         s_state <= DEF;
+                        
                 end case;
             end if; -- Synchronous reset
         end if; -- Rising edge
@@ -148,13 +162,13 @@ begin
     -- the output signals accordingly. This is an example of a Moore 
     -- state machine because the output is set based on the active state.
     --------------------------------------------------------------------
-    p_output_fsm : process(s_state)
-    begin
-        case s_state is
-            when ECHO_COUNT =>
-                echo_count_o <= s_cnt_echo;            
-            when others =>
-                echo_count_o <= 0;
-        end case;
-    end process p_output_fsm;
+   -- p_output_fsm : process(s_state)
+   -- begin
+        --case s_state is
+          --  when TRIGG_SEND =>
+           --     echo_count_o <= s_cnt_echo;            
+           -- when others =>
+           --     echo_count_o <=(others => '0');
+        --end case;
+  --  end process p_output_fsm;
 end Behavioral;
