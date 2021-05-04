@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  4 19:34:07 2021
+# Process ID: 17568
+# Current directory: D:/malygit/Digital-electronics-1/Labs/de1_projekt/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6764 D:\malygit\Digital-electronics-1\Labs\de1_projekt\project\project.xpr
+# Log file: D:/malygit/Digital-electronics-1/Labs/de1_projekt/project/vivado.log
+# Journal file: D:/malygit/Digital-electronics-1/Labs/de1_projekt/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/malygit/Digital-electronics-1/Labs/de1_projekt/project/project.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top state_machine [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_state_machine [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_state_machine.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut/echo_count_o}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut/s_state}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut/s_cnt_echo}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_state_machine/uut/s_cnt}} 
+relaunch_sim
+relaunch_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top pwm [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_pwm [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_pwm.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb_pwm/uut/s_4khz}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_pwm/uut/s_en}} 
+relaunch_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top LED_bargraph [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_LED_bargraph [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_LED_bargraph.tcl
+relaunch_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_top.tcl
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/s_echo_count}} 
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/pwm/sound}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/pwm/s_4khz}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/pwm/s_en}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/state_machine/s_state}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/state_machine/trigger_o}} 
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/tb_top/uut_top/state_machine/echo_i}} 
+relaunch_sim
+close_sim

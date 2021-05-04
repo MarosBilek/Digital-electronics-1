@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../project_1.srcs/sources_1/new/clock_enable.vhd" \
-"../../../tb_clock_enable.vhd" \
-
-# Do not sort compile order
-nosort
