@@ -53,7 +53,7 @@
 
 ### Pmod connectors tables
 
-![Pins](Images/piny.png)
+![Pins](Images/pinyy.png)
 
 || Pmod JA | Pmod JB | Pmod JC | Pmod JD |
 | :-: | :-: | :-: | :-: | :-:|
